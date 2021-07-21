@@ -1,150 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Landing Page</title>
-    <link rel="stylesheet" type="text/css" href="style.css">"
-    
-</head>
-<body>
-    <div id="page-wrapper">
-  <header id="header">
-    <div class="logo">
-        <img
-          id="header-img"
-          src=""
-          alt="company logo"
-        />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>FCC Product Landing Page</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mdb.min.css" />
+  </head>
+  <body>
+    <!--Main Navigation Start-->
+    <header id="header">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #282b32;" id="nav-bar">
+      <div class="container-fluid" id="header-img">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" width="80"></a>
+        <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+    <i class="fas fa-bars fa-sm" style="color: #fbfbfb"></i>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Request Access</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Company</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Mission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Contact</a>
+            </li>
+          </ul>
         </div>
-        <nav id="nav-bar">
-            <ul>
-              <li><a class="nav-link" href="#features">Features</a></li>
-              <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
-              <li><a class="nav-link" href="#pricing">Pricing</a></li>
-            </ul>
-          </nav>
       </div>
+    </nav>
   </header>
- 
-   <div class="img-wrapper">
-  <div class="flex-container">
-    <div class="flex-item-one">About Us</div>
-    <div class="flex-item-two">Company</div>
-    <div class="flex-item-three">Our Mission</div>
-    <div class="flex-item-four">Awards</div>
-  </div>
-</div>
-<!--
-  <div class="container" id="section-one">
-    <section id="features">
-      <div class="card">
-        <img src="images/users.svg" alt="About Us" style="width:25%">
-        <div class="container">
-          <h3><b>ABOUT US</b></h3>
-          <p>Learn about our team.</p>
+  <!--Main Navigation End-->
+
+  <!--Main Layout Start-->
+  <main class="mt-5">
+    <div class="container-fluid">
+
+      <!--Section: Top Section-->
+      <section id="top section">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card h-100 text-center pt-4"  style="width: 18rem; background: #cbff00;">
+              <i class="fas fa-users fa-3x"></i>
+              <div class="card-body">
+                <h5 class="card-title"> ABOUT US</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center pt-4" style="width: 18rem; background: #cbff00;">
+              <i class="far fa-building fa-3x"></i>
+              <div class="card-body">
+                <h5 class="card-title">COMPANY</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center pt-4" style="width: 18rem; background: #cbff00;">
+              <i class="fas fa-rocket fa-3x"></i>
+              <div class="card-body">
+                <h5 class="card-title">OUR MISSION</h5>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center pt-4" style="width: 18rem; background: #cbff00;">
+              <i class="fas fa-trophy fa-3x"></i>
+              <div class="card-body">
+                <h5 class="card-title">AWARDS</h5>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </div>
+            </div>
+          </div>
         </div>
-      </div> 
-      <div class="card">
-        <img src="images/apartment.svg" alt="Company" style="width:25%">
-        <div class="container">
-          <h3><b>COMPANY</b></h3>
-          <p>Discover our company.</p>
-        </div>
-      </div> 
-      <div class="card">
-        <img src="images/rocket.svg" alt="Mission" style="width:25%">
-        <div class="container">
-          <h3><b>OUR MISSION</b></h3>
-          <p>What is our mission?</p>
-        </div>
-      </div> 
-      <div class="card">
-        <img src="images/diamond-alt.svg" alt="Awards" style="width:25%">
-        <div class="container">
-          <h3><b>AWARDS</b></h3>
-          <p>Accomplishments of the team.</p>
-        </div>
-      </div> 
-    </section>
-    </div>
-    -->
-    <!--
-    <div id="section-two">
-    <section id="how-it-works">
-      <iframe
-        id="video"
-        height="315"
-        src=""
-        frameborder="0"
-        allowfullscreen
-      ></iframe>
-    </section>
-  </div>
-  <div id="section-three">
-    <section id="pricing">
-      <div class="product">
-        <div class="level">One</div>
-        <h2>$600</h2>
-        <ol>
-          <li>Lorem ipsum.</li>
-          <li>Lorem ipsum.</li>
-          <li>Lorem ipsum dolor.</li>
-          <li>Lorem ipsum.</li>
-        </ol>
-        <button class="btn">Select</button>
-      </div>
-      <div class="product">
-        <div class="level">Two</div>
-        <h2>$900</h2>
-        <ol>
-          <li>Lorem ipsum.</li>
-          <li>Lorem ipsum.</li>
-          <li>Lorem ipsum dolor.</li>
-          <li>Lorem ipsum.</li>
-        </ol>
-        <button class="btn">Select</button>
-      </div>
-      <div class="product">
-        <div class="level">Three</div>
-        <h2>$1200</h2>
-        <ol>
-          <li>Lorem ipsum.</li>
-          <li>Lorem ipsum.</li>
-          <li>Lorem ipsum dolor.</li>
-          <li>Lorem ipsum.</li>
-        </ol>
-        <button class="btn">Select</button>
-      </div>
-    </section>
-  </div>
-  <div id="section-four">
-    <section id="hero">
-        <h2>Receive more information</h2>
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-          <input
-            name="email"
-            id="email"
-            type="email"
-            placeholder="Enter your email address"
-            required
-          />
-          <input id="submit" type="submit" value="Get Started" class="btn" />
-        </form>
       </section>
+     <!--Section: Top Section-->
+
+      <hr class="my-5">
+    <div class="container-fluid">
+
+      <!--Section: Request Access-->
+      <section id="request access">
+
+      </section>
+     <!--Section: Request Access-->
+
+      <hr class="my-5">
+
+      <!--Section: About Us-->
+      <section id="about us">
+        
+      </section>
+    <!--Section: About Us-->
+
+    <hr class="my-5">
+
+    <!--Section: Company-->
+      <section id="company">
+        
+      </section>
+    <!--Section: Company-->
+
+    <hr class="my-5">
+
+    <!--Section: Mission-->
+      <section id="mission">
+        
+      </section>
+      <!--Section: Mission-->
+
+    <hr class="my-5">
+    
+    <!--Section: Contact-->
+      <section id="contact">
+        
+      </section>
+      <!--Section: Contact-->
+
+    <hr class="my-5">
     </div>
-    <footer>
-      <ul>
-        <li><a href="#">Privacy</a></li>
-        <li><a href="#">Terms</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <span>Copyright 2021, Company Name</span>
-    </footer>
-  </div>
-  --> 
-</div> 
-</body>
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </main>
+<!--Main Layout Start-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>
