@@ -1,0 +1,14 @@
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: #cbff00;
+    border-radius: 50%;
+    left: 105px;
+    position: relative;
+  }
+
+  #intro{
+    font-size: 60px;
+    color: #fbfbfb;
+    text-decoration: underline;
+  }
