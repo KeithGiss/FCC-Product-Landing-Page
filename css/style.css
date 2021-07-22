@@ -12,8 +12,15 @@
     text-decoration: underline;
     text-align: left;
   }
-#intro-bg {
-    background-image: url("img/intro-bg.jpg");
-    height: 100%; 
-    width: auto;
+
+  #intro-bg {
+    background-image: url("../img/intro-bg.jpg");
+    height: 100%;
+    width: auto; 
+    
+}
+@media (min-width: 576px){
+  #intro-bg{
+    height: 100%;
+  }
 }
