@@ -3,12 +3,17 @@
     width: 100px;
     background-color: #cbff00;
     border-radius: 50%;
-    left: 105px;
     position: relative;
   }
 
-  #intro{
+  #intro {
     font-size: 60px;
     color: #fbfbfb;
     text-decoration: underline;
+    text-align: left;
   }
+#intro-bg {
+    background-image: url("https://github.com/KeithGiss/FCC-Product-Landing-Page/blob/main/img/intro-bg.jpg");
+    height: 100%; 
+    width: auto;
+}
