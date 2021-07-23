@@ -8,7 +8,7 @@ It makes up the third part of my FCC coding portfolio.
 
 You can see this project live at the following URL:
 
-https://keithgiss.github.io/FCC-Survey-Form/
+https://keithgiss.github.io/FCC-Product-Landing-Page/
 
 Enjoy!
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/RKRbwL.
