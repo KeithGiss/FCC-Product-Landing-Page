@@ -1,5 +1,41 @@
 
 
+
+
+#team-circle {
+  height: 400px;
+  width: 400px;
+}
+
+#read-more{
+  background-color: #cbff00;
+  color: #303227;
+  font-size: large;
+  font-weight: bold;
+}
+
+.about-text {
+  font-size: medium;
+}
+#about-us {
+  font-size: 60px;
+}
+.request {
+  background-color: #cbff00;
+  height: 300px;
+  margin-top: 0;
+  text-align: center;
+  
+}
+ #request-access {
+  font-size: 50px;
+ }
+
+ #request-button{
+   background-color: #303227;
+   color: #cbff00;
+   font-size: x-large;
+ }
 .prototype {
   height: 600px;
   vertical-align: top;
@@ -14,7 +50,7 @@
     width: 100px;
     background-color: #cbff00;
     border-radius: 50%;
-    position: relative;
+    position: just;
   }
 
   #intro {
