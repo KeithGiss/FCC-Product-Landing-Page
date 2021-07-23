@@ -1,3 +1,14 @@
+
+
+.prototype {
+  height: 600px;
+  vertical-align: top;
+  margin-top: 0;
+}
+
+#prototype {
+  font-size: 60px;
+}
 .circle {
     height: 100px;
     width: 100px;
