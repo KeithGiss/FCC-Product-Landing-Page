@@ -11,7 +11,18 @@ line-height: 01.0;
   width: 400px;
 }
 
+#mission-circle {
+  height: 450px;
+  width: 450px;
+}
+
 #read-more{
+  background-color: #cbff00;
+  color: #303227;
+  font-size: large;
+  font-weight: bold;
+}
+#learn-more{
   background-color: #cbff00;
   color: #303227;
   font-size: large;
@@ -56,12 +67,56 @@ line-height: 01.0;
     border-radius: 50%;
     position: just;
   }
+  .green-sphere {
+    height: 125px;
+    width: 125px;
+    background-color: #cbff00;
+    border-radius: 50%;
+    position: relative;
+    margin-top: -450px;
+    margin-left: 560px;
+    z-index: 1;
+  }
+  .grey-sphere {
+    height: 480px;
+    width: 480px;
+    background-color: #545b65;
+    border-radius: 50%;
+    position: relative;
+    margin-top: -620px;
+    margin-left: 180px;
+    z-index: -1;
+  }
+  .mission-image{
+    position: relative;
+    margin-left: 100px;
+    margin-bottom: -150px;
+  }
+  .top-text {
+    font-size: 4rem;
+    color: #cbff00;
+  line-height: 01.0;
 
+  }
+  .right-text {
+   font-size: 1rem;
+   color: white;
+   position: relative;
+   text-align: left;
+   width: 640px;
+   margin-left: 600px;
+   margin-top: -350;
+   
+  }
+ 
   #our-culture {
     background-color: #cbff00;
     text-align: center;
   }
 
+  #contact {
+    background-color: #cbff00;
+  }
   #intro {
     font-size: 60px;
     color: #fbfbfb;
@@ -86,3 +141,9 @@ line-height: 01.0;
     height: 100%;
   }
 }
+@media (min-width: 576px){
+  #mission{
+    height: 100%;
+  }
+}
+

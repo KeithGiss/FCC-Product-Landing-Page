@@ -36,7 +36,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+              <a class="nav-link active text-light" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light" href="#section-one">Request Access</a>
@@ -48,10 +48,10 @@
               <a class="nav-link text-light" href="#our-culture">Company</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Mission</a>
+              <a class="nav-link text-light" href="#mission">Mission</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Contact</a>
+              <a class="nav-link text-light" href="#form">Contact</a>
             </li>
           </ul>
         </div>
@@ -60,7 +60,7 @@
   </header>
   <!--Main Navigation End-->
 
-  <main>
+  <main id="home">
      <!-- Background image -->
 <div class="p-5 bg-image mt-xxl-5" id="intro-bg">
   <div class="container">
@@ -126,7 +126,7 @@
     <h1 id="prototype" style="color: #cbff00;">Prototype a digital product idea</h1>
   </div>
   <div class="row">
-    <div class="col-md-7">
+    <div class="col-md-7  d-none d-lg-block">
       <div class="">
         
       </div>
@@ -162,7 +162,7 @@
   <div class="col-lg-8 mt-4">
     <h1 id="request-access" style="color: #303227;">Request early access</h1>
     <h1 id="request-access" style="color: #9cb62e;">We're in private beta now</h1>
-    <button type="button" id="request-button" class="btn mt-3">Request Access</button>
+    <button type="button" id="request-button" class="btn mt-3" >Request Access</button>
   </div>
 
 </div>
@@ -221,6 +221,77 @@
   </div>
   </section>
   <!-- Section: Culture -->
+<!--Mission Section-->
+<section id="mission">
+  <div class="container mt-5 d-none d-lg-block" style="height: 900px;">
+  <div class="top-text mb-10"><p>Understanding the brand is the<br> most critical job before <br>working on user interface.</p></div>
+ <div class="mission-image mt-5"><img src="img/team.png" class="rounded-circle" alt="coworkers photo" id="mission-circle"></div>
+ <div class="right-text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque vitae nam quasi beatae tenetur nobis repellat et quo dolorem voluptatum minima, eveniet assumenda quas inventore veritatis! Iusto voluptatum unde labore corrupti dignissimos doloribus dicta! Odio facilis eligendi a quaerat eaque!Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque vitae nam quasi beatae tenetur nobis repellat et quo dolorem voluptatum minima, eveniet assumenda quas inventore veritatis! Iusto voluptatum unde labore corrupti dignissimos doloribus dicta! Odio facilis eligendi a quaerat eaque!</p>
+  <button type="button" id="learn-more" class="btn mt-3 mb-5">Learn More</button></div>
+ <div class="grey-sphere"></div>
+<div class="green-sphere"></div>
+</div>
+</section>
+<!--Mission Section-->
+<!--Contact Section-->
+<section id="contact">
+  <div class="container">
+<div class="row">
+
+  <div class="col-md-6 mb-4 mb-md-0 mt-5">
+    <h1 style="color: #303227; margin-top: 10px;">Get in Touch</h1>
+    <h4 style="color: #303227;">Hey! We are looking<br>forward to starting a<br>project with you!</h4>
+    <h6 style="color: #303227; margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque vitae nam quasi beatae tenetur nobis repellat et quo dolorem voluptatum minima, eveniet assumenda quas inventore veritatis! Iusto voluptatum unde labore corrupti dignissimos doloribus dicta! Odio facilis eligendi a quaerat eaque!</h6>
+    <div class="contact-icons mt-4"><i class="fab fa-facebook fa-2x" style="color: #303227"></i><i class="fab fa-twitter fa-2x" style="color: #303227"></i><i class="fab fa-instagram fa-2x" style="color: #303227"></i><i class="fab fa-youtube fa-2x" style="color: #303227"></i>
+      
+    </div>
+  </div>
+
+  <div class="col-md-6 mb-4 mb-md-0 mt-5">
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <!-- Name input -->
+      <div class="form-outline mb-4">
+        <input type="text" id="name" class="form-control" placeholder="Name"/>
+        <label class="form-label" for="name">Name</label>
+      </div>
+    
+      <!-- Email input -->
+      <div class="form-outline mb-4">
+        <input type="email" required id="email" class="form-control" placeholder="Email address" name="email"/>
+        <label class="form-label" for="email">Email address</label>
+      </div>
+    
+      <!-- Message input -->
+      <div class="form-outline mb-4">
+        <textarea class="form-control" id="message" rows="4"></textarea>
+        <label class="form-label" for="message">Message</label>
+      </div>
+    
+      <!-- Checkbox -->
+      <div class="form-check d-flex justify-content-center mb-4">
+        <input
+          class="form-check-input me-2"
+          type="checkbox"
+          value=""
+          id="form4Example4"
+          checked
+        />
+        <label class="form-check-label" for="form4Example4">
+          Send me a copy of this message
+        </label>
+      </div>
+    
+      <!-- Submit button -->
+      <input type="submit" id="submit" class="btn btn-dark btn-block mb-4" name="form">
+    </form>
+  </div>
+
+</div>
+</div>
+</section>
+
+<!--Contact Section-->
+
   </main>
 <!--Main Layout End-->
 
